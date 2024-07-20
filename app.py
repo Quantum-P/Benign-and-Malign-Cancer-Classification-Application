@@ -2,10 +2,6 @@ import numpy as np
 import pickle
 import pandas as pd
 import streamlit as st 
-from xgboost import XGBClassifier
-from sklearn.ensemble import (
-    AdaBoostClassifier,
-)
 import warnings
 warnings.filterwarnings("ignore")
 from PIL import Image
